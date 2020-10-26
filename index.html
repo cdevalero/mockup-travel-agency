@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Travel.ve</title>
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/hero-slider.css">
+        <link rel="stylesheet" href="css/owl-carousel.css">
+        <link rel="stylesheet" href="css/datepicker.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+
+       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+<body>
+ 
+    <div class="wrap">
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <button id="primary-nav-button" type="button">Menu</button>
+                        <a href="index.html"><div class="logo">
+                            <img src="img/logo.png" alt="Venue Logo">
+                        </div></a>
+                        <nav id="primary-nav" class="dropdown cf">
+                            <ul class="dropdown menu">
+                                <li class='active'><a href="#">Popular</a></li>
+                                <li><a href="#">Regiones</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Europa</a></li>
+                                        <li><a href="#">Africa & Medio Oriente</a></li>
+                                        <li><a href="#">Australia, Nueva Zelanda & Pacífico</a></li>
+                                        <li><a href="#">Asia</a></li>
+                                        <li><a href="#">México, Centro & Sur América</a></li>
+                                        <li><a href="#">USA, Cánada & caribe</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="scrollTo" data-scrollTo="blog" href="#">Rally</a></li>
+                                
+                                <li><a class="scrollTo" data-scrollTo="contact" href="#">Agencias</a></li>
+                            </ul>
+                        </nav><!-- / #primary-nav -->
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+      
+
+    <br>
+    <section class="banner" id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="banner-caption">
+                        <div class="line-dec"></div>
+                        <h2>Tu Próxima Aventura Te Espera</h2>
+                        
+                        <div class="blue-button">
+                            <a class="scrollTo" data-scrollTo="popular" href="#">Aventurate Ya!</a>
+                        </div>
+                    </div>
+                    <div class="submit-form">
+                        <form id="form-submit" action="" method="get">
+                            <div class="row">
+                                <div class="col-md-3 first-item">
+                                    <fieldset>
+                                        <input name="name" type="text" class="form-control" id="name" placeholder="Ciudad..." required="">
+                                    </fieldset>
+                                </div>
+                                
+                                <div class="col-md-6 second-item">
+                                    <fieldset>
+                                        <select required name='category' onchange='this.form.()'>
+                                            <option value="Todo">Todo</option>
+                                            <option value="Aventura">Aventura</option>
+                                            <option value="Celebraciones">Celebraciones Especiales</option>
+                                            <option value="Cultura">Cultura & Educación</option>
+                                            <option value="Submarinismo">Submarinismo</option>
+                                            <option value="Pesca">Pesca</option>
+                                            <option value="Gastronomia">Gastronomía</option>
+                                            <option value="Romance">Romance</option>
+                                            <option value="Spa">Spa & Bienestar</option>
+                                            <option value="Familia">Familia</option>
+                                        </select>
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-3" >
+                                    <fieldset>
+                                        <button type="submit" id="form-submit" class="btn">Buscar</button>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-places">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h1>Paquetes Populares</h1>
+                    </div>
+                </div> 
+            </div> 
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="featured-item">
+                        <div class="thumb">
+                            <img src="img/featured_item_1.jpg" alt="">
+                            <div class="overlay-content">
+                                <ul>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="date-content">
+                                <h6>9</h6>
+                                <span>Dias</span>
+                            </div>
+                        </div>
+                        <div class="down-content">
+                            <h4>Desde Paris con Amor</h4>
+                            <span>Aventura</span>
+                            <p>La Torre Eiffel es uno de los monumentos más emblemáticos del mundo, Ubicado en una de las capitales del mundo, la Ciudad de las Luces, Paris. Visita sus Inmensos bulevares y exoticos restauranes, con nosotros.</p>
+                            <div class="row">
+                                <div class="col-md-6 first-button">
+                                    <div class="text-button2">
+                                        <a> &#8364 4000</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 second-button">
+                                    <div class="text-button">
+                                        <a href="item1.html">Comprar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="featured-item">
+                        <div class="thumb">
+                            <img src="img/featured_item_2.jpg" alt="">
+                            <div class="overlay-content">
+                                <ul>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="date-content">
+                                <h6>5</h6>
+                                <span>Dias</span>
+                            </div>
+                        </div>
+                        <div class="down-content">
+                            <h4>Recorrido completo Desde el Maracana al Cristo Redentor</h4>
+                            <span>Aventura</span>
+                            <p>Haga un recorrido panorámico por la ciudad de Río, viaje a la cima de la Montaña Pan de Azúcar y visite la estatua del Cristo Redentor, en este recorrido completo por Río.</p>
+                            <div class="row">
+                                <div class="col-md-6 first-button">
+                                    <div class="text-button2">
+                                        <a>$ 1299.99</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 second-button">
+                                    <div class="text-button">
+                                        <a href="#">Comprar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="featured-item">
+                        <div class="thumb">
+                            <img src="img/featured_item_3.jpg" alt="">
+                            <div class="overlay-content">
+                                <ul>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="date-content">
+                                <h6>2</h6>
+                                <span>Dias</span>
+                            </div>
+                        </div>
+                        <div class="down-content">
+                            <h4>Vive el Resort de Lujo Marina Bay Sands</h4>
+                            <span>SPA & Bienestar</span>
+                            <p>El mejor hotel de Singapur, si quieres saber como es alojarte es un hotel de categoría mundial y disfrutar de las maravillosas vistas desde su piscina infinita. Una experiencia unica e inolvidable.</p>
+                            <div class="row">
+                                <div class="col-md-6 first-button">
+                                    <div class="text-button2">
+                                        <a>$ 4979.99</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 second-button">
+                                    <div class="text-button">
+                                        <a href="#">Comprar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="featured-places" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h1>Rallies de lujo</h1>
+                    </div>
+                </div> 
+            </div> 
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="featured-item">
+                        <div class="thumb">
+                            <img src="img/featured_item_4.jpg" alt="">
+
+                            
+                        </div>
+                        <div class="down-content">
+                            <h4>Europa Salvaje</h4>
+                            <span>Individual</span>
+                            <p>Experiencia unica que te llevara por distintos lugares de la Europa clasica: Fancia, España, Italia, Portugal.</p>
+                            <div class="row">
+                                <div class="col-md-6 first-button">
+                                    <div class="text-button2">
+                                        <a>&#8364 8000</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 second-button">
+                                    <div class="text-button">
+                                        <a href="#">Ver Más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="featured-item">
+                        <div class="thumb">
+                            <img src="img/featured_item_5.jpg" alt="">
+
+                            
+                        </div>
+                        <div class="down-content">
+                            <h4>USA Sin Limites</h4>
+                            <span>Grupo</span>
+                            <p>Vive la verdadera experiencia USA con este Rallies que te hara amar los paisajes de USA: Miami, Los Angeles, Dallas</p>
+                            <div class="row">
+                                <div class="col-md-6 first-button">
+                                    <div class="text-button2">
+                                        <a>$ 3499.99</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 second-button">
+                                    <div class="text-button">
+                                        <a href="#">Ver Más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="featured-item">
+                        <div class="thumb">
+                            <img src="img/featured_item_6.jpg" alt="">
+
+                            
+                        </div>
+                        <div class="down-content">
+                            <h4>Australia Sin Limites</h4>
+                            <span>Grupo</span>
+                            <p>Descubre la verdadera Australia, vive de primera mano sus maravillosos paisajes e increible fauna: Townsville, Ballarat, Toowoomba</p>
+                            <div class="row">
+                                <div class="col-md-6 first-button">
+                                    <div class="text-button2">
+                                        <a>$ 2999.99</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 second-button">
+                                    <div class="text-button">
+                                        <a href="#">Ver Más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing-tables">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h1>Los Mejores Destinos</h1>
+                    </div>
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <h4>Europa</h4>
+                    <br>
+                    <br>
+                    <br>
+                    <ul>
+                        <li><a href="">Paris</a></li>
+                        <br>
+                        <li><a href="">Zúrich</a></li>
+                        <br>
+                        <li><a href="">Hamburgo</a></li>
+                        <br>
+                        <li><a href="">Viena</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>Africa & Medio Oriente</h4>
+                    <br>
+                    <br>
+                    <ul>
+                        <li><a href="">Dubái</a></li>
+                        <br>
+                        <li><a href="">El Cairo</a></li>
+                        <br>
+                        <li><a href="">Rabat</a></li>
+                        <br>
+                        <li><a href="">Doha</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>Australia, Nueva Zelanda & Pacifico</h4>
+                    <br>
+                    <ul>
+                        <li><a href="">Gold Coast</a></li>
+                        <br>
+                        <li><a href="">Nadi</a></li>
+                        <br>
+                        <li><a href="">Perth</a></li>
+                        <br>
+                        <li><a href="">Auckland</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>Asia</h4>
+                    <br>
+                    <br>
+                    <br>
+                    <ul>
+                        <li><a href="">Hong Kong</a></li>
+                        <br>
+                        <li><a href="">Singapur</a></li>
+                        <br>
+                        <li><a href="">Tokio</a></li>
+                        <br>
+                        <li><a href="">Bangkok</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>Mexico, Centro & Sur America</h4>
+                    <br>
+                    <br>
+                    <ul>
+                        <li><a href="">Lima</a></li>
+                        <br>
+                        <li><a href="">Puerto Vallarta</a></li>
+                        <br>
+                        <li><a href="">Panamá</a></li>
+                        <br>
+                        <li><a href="">Rio de Janerio</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>USA, Canada & Caribe</h4>
+                    <br>
+                    <br>
+                    <ul>
+                        <li><a href="">Nueva York</a></li>
+                        <br>
+                        <li><a href="">La Habana</a></li>
+                        <br>
+                        <li><a href="">Montreal</a></li>
+                        <br>
+                        <li><a href="">San Francisco</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing-tables">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h1>Agencias Top</h1>
+                    </div>
+                </div> 
+            </div> 
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumb">
+                        <img src="img/featured_item_logo1.png">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumb">
+                        <img src="img/featured_item_logo2.png">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumb">
+                        <img src="img/featured_item_logo3.png">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumb">
+                        <img src="img/featured_item_logo5.png">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumb">
+                        <img src="img/featured_item_logo4.png">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumb">
+                        <img src="img/featured_item_logo6.png">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumb">
+                        <img src="img/featured_item_logo7.png">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumb">
+                        <img src="img/featured_item_logo9.png">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumb">
+                        <img src="img/featured_item_logo8.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Listo -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-veno">
+                        <div class="logo">
+                            <img src="img/footer_logo.png" alt="Venue Logo">
+                        </div>
+                        <p>UCAB. Sistemas de Bases de Datos I. Prof. Lúcia Cardoso. Octubre 2020 - Febrero 2021. VIAJES Y TURISMO.</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <div class="footer-heading">
+                            <h4>Informacion de contacto</h4>
+                        </div>
+                        <h4>Grupo 1:</h4>
+                        <ul>
+                            <li>Carlos Velero</li>
+                            <li>Gabriel Ojeda</li>
+                            <li>Rabindra Haricand</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sub-footer">
+        <p>Copyright &copy; 2020
+    
+    	- Design: Carlos Valero & <a rel="nofollow" href="http://www.templatemo.com">Template Mo</a></p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+    
+    <script src="js/datepicker.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
