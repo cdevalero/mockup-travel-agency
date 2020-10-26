@@ -43,6 +43,31 @@ section {
   color: #4883ff;
 }
 
+.list_edit {
+  
+  font-size: 15px;
+  line-height: 40px;
+}
+
+.title_edit_eu h4{
+  font-size: 17px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.title_edit_af h4{
+  font-size: 17px;
+  padding-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.title_edit_nz h4{
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+
 .card-title {
   font-weight: bold;
 }
@@ -1236,6 +1261,12 @@ footer .contact-info ul li a {
 
   .banner .banner-caption {
     padding: 30px 0px;
+  }
+
+  .list_edit {
+    padding-left: 120px;
+    font-size: 15px;
+    line-height: 40px;
   }
 
   .submit-form input {
