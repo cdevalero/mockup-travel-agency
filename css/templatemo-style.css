@@ -180,6 +180,7 @@ section {
   overflow: hidden;
 }
 
+
 .menu {
   float: right;
 }
@@ -508,6 +509,15 @@ section.banner {
   overflow: hidden;
   z-index: 1;
   border-radius: 5px;
+}
+
+.thumb2 img {
+  position: relative;
+  width: 80%;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .popular-places .popular-item .thumb .text-content {
@@ -1168,6 +1178,10 @@ footer .footer-heading h4 {
 
 footer .about-veno .logo {
   margin-bottom: 40px;
+}
+
+.tlogo {
+
 }
 
 footer .about-veno ul li a {
