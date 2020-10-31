@@ -67,34 +67,18 @@ img-inline{
   display: block;
 }
 
-.entry .title h3 {
-  font-size: 57px;
+.body-timeline p{
+  font-size: 20px;
 }
-.entry .title p {
-  margin: 0;
-  font-size: 100%;
+.body-timeline ul li{
+  font-size: 16px;
 }
-.entry .body-timeline {
-  margin: 0 0 3em;
-  float: left;
-  padding-left: 80px;
+.day-bay {
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
-.entry .body-timeline p {
-  line-height: 1.4em;
-  font-size: 22px;
-}
-.entry .body-timeline p:first-child {
-  margin-top: 0;
-  font-weight: 400;
-}
-.entry .body-timeline ul {
-  padding-left: 0;
-  list-style-type: none;
-}
-.entry .body-timeline ul li {
-  margin-right: .5em;
-  padding-bottom: 10px;
-  font-size: 14px;
+.title-day h3{
+  font-size: 40px;
 }
 
 
