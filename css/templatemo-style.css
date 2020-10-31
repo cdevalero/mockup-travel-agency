@@ -57,6 +57,9 @@ img-inline{
   padding: 10px;
   color: black;
 }
+.paddingtop {
+  padding-top: 20px;
+}
 
 .dropdown-content-price {
   display: none;
