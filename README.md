@@ -1,6 +1,4 @@
-"# Work-in-progres" 
-
-Front end de sistema de agencia de viajes y turismo
+Front end de sistema de agencia de viajes y turismo (HTML, CSS, JS)
 
 https://cdevalero.github.io/Work-in-progres/
 
